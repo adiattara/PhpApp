@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap%27');
+body,html{
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family: "Poppins";
+    padding-top: -20px;
+}
+.bas_de_page{
+    height: 200px;
+    background-color:rgba(18, 41, 2, 0.842);
+}
+.button_add_recipes{
+    background-color:rgba(18, 41, 2, 0.842);
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: #fff;
+}
+.button_add_recipes a{
+    text-decoration: none;
+    color: #fff;
+}
+.zommbie_lawyer {
+    background-image:url('../img/image4.png') ;
+    background-size: cover;
+    padding: 12px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items:center;
+    color:white;
+}
+

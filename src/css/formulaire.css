@@ -1,0 +1,60 @@
+
+
+
+body{
+    background-color:white;
+
+}
+.container{
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+form{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+form div input{
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    margin-bottom: 20px;
+}
+.form div textarea{
+
+    display:grid;
+    grid-template-columns: 170px 1fr;
+    margin-bottom: 20px;
+}
+.presentation_site{
+    padding-top: -20px;;
+}
+@media  (max-width : 441px) {
+    
+
+    body {
+        margin: 0;
+        padding: 0;
+        margin-top:-20px;
+        
+        
+
+    }
+    .auteur{
+        max-width: 250px;
+        margin: 0;
+    }
+    form {
+        max-width :300px;
+    }
+    #ingredient{
+        max-width :300px;
+    }
+    #description{
+        max-width :300px;
+    }
+    
+}
+
